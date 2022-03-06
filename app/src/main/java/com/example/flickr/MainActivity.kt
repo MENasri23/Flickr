@@ -2,7 +2,6 @@ package com.example.flickr
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.flickr.ui.main.MainFragment
 
 class MainActivity : AppCompatActivity() {
 
