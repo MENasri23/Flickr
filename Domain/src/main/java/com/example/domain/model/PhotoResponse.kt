@@ -2,7 +2,7 @@ package com.example.domain.model
 
 import com.google.gson.annotations.SerializedName
 
-data class PhotoRequest(
+data class PhotoResponse(
     val page: Int,
     val pages: Int,
     @SerializedName("perpage")

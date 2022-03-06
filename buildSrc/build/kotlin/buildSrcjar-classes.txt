@@ -1,0 +1,1 @@
+I:\books\Education\AndroidEdu\myProjects\Flickr\buildSrc\build\classes\kotlin\main\Libs.class;I:\books\Education\AndroidEdu\myProjects\Flickr\buildSrc\build\classes\kotlin\main\Versions.class
