@@ -2,7 +2,7 @@ package com.example.domain.model
 
 import com.google.gson.annotations.SerializedName
 
-data class Photo(
+data class PhotoItem(
     val farm: Int,
     @SerializedName("height_s")
     val height: Int,

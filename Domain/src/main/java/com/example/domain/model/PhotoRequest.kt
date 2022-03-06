@@ -8,6 +8,6 @@ data class PhotoRequest(
     @SerializedName("perpage")
     val perPage: Int,
     @SerializedName("photo")
-    val photos: List<Photo>,
+    val photos: List<PhotoItem>,
     val total: Int
 )
