@@ -11,5 +11,9 @@ java {
 }
 
 dependencies {
+    implementation(Libs.RETROFIT2)
+    implementation(Libs.OKHTTP3_LOGGING_INTERCEPTOR)
+    implementation(Libs.RETROFIT2_GSON_CONVERTOR)
     implementation(Libs.GSON)
+    implementation(Libs.LIFECYCLE_LIVEDATA_KTX)
 }
