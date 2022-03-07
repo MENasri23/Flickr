@@ -8,4 +8,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Flickr"
 include ':app'
-include ':domain'
+include ':model'
+include ':data'
+include ':webservice'

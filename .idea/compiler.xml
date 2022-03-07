@@ -4,6 +4,8 @@
     <bytecodeTargetLevel target="1.8">
       <module name="Flickr.app" target="11" />
       <module name="Flickr.buildSrc" target="11" />
+      <module name="Flickr.data" target="11" />
+      <module name="Flickr.webservice" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

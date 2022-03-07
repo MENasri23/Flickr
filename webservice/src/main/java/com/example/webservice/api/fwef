@@ -1,0 +1,11 @@
+api_key = 1c04e05bce6e626247758d120b372a73
+method = flickr.photos.getPopular
+user_id = 34427466731@N01
+extras = url_s
+format = json
+nojsoncallback = 1
+per_page = 100
+page = 1
+
+method = flickr.photos.search
+text = ""

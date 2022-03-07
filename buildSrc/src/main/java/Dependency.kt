@@ -45,7 +45,7 @@ object Libs {
     const val GSON = "com.google.code.gson:gson:${Versions.GSON}"
     const val RETROFIT2 = "com.squareup.retrofit2:retrofit:${Versions.RETROFIT2}"
     const val OKHTTP3_LOGGING_INTERCEPTOR ="com.squareup.okhttp3:logging-interceptor:${Versions.OKHTTP3_LOGGING_INTERCEPTOR}"
-    const val RETROFIT2_GSON_CONVERTOR = "com.squareup.retrofit2:converter-gson:${Versions.OKHTTP3_LOGGING_INTERCEPTOR}"
+    const val RETROFIT2_GSON_CONVERTOR = "com.squareup.retrofit2:converter-gson:${Versions.RETROFIT2_GSON_CONVERTOR}"
 
 
 }
