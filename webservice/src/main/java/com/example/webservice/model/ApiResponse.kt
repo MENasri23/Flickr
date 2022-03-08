@@ -4,11 +4,11 @@ import retrofit2.Response
 
 sealed class ApiResponse<T> {
 
-    object ApiEmptyResponse : ApiResponse<Nothing>()
+    class ApiEmptyResponse<T> : ApiResponse<T>()
 
-    class ApiSuccessResponse<T>(val body: T) : ApiResponse<T>()
+    data class ApiSuccessResponse<T>(val body: T) : ApiResponse<T>()
 
-    class ApiErrorResponse<T>(val error: ApiError) : ApiResponse<T>()
+    data class ApiErrorResponse<T>(val error: ApiError) : ApiResponse<T>()
 
 
     companion object {

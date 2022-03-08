@@ -9,7 +9,7 @@ class RemoteFlickrDataSourceImpl : RemoteFlickrDataSource {
 
     private val flickrService = NetworkManager.createFlickService()
 
-    override fun fetchPhotos(): LiveData<ApiResponse<FlickrResponse>> {
-        return flickrService.fetchPhotos(mapOf())
+    override fun fetchPhotos(queryParams: QueryParams<String, String>): LiveData<ApiResponse<FlickrResponse>> {
+        return flickrService.fetchPhotos(queryParams.getParams())
     }
 }
